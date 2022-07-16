@@ -1,0 +1,12 @@
+.button {
+  background-color: $color-red;
+  color: $color-white;
+  font-size: 14px;
+  height: 43px;
+  padding: 0 16px;
+  display: inline-flex;
+  align-items: center;
+  text-transform: uppercase;
+  border-radius: $border-radius;
+  border: none;
+}
