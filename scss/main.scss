@@ -1,4 +1,5 @@
 @import "vars";
+@import "common";
 
 body {
   font-family: 'Roboto', sans-serif;
@@ -11,5 +12,9 @@ body {
   margin: 0 auto;
 }
 
-@import "header";
 @import "button";
+@import "input";
+@import "header";
+@import "first";
+@import "video";
+@import "contacts";

@@ -1,0 +1,41 @@
+.video {
+  margin-top: 68px;
+  margin-bottom: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 40px;
+
+  &__image {
+    width: 580px;
+  }
+
+  &__button {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 156px;
+    height: 156px;
+    cursor: pointer;
+
+    img {
+      max-width: 156px;
+      max-height: 156px;
+      position: absolute;
+    }
+  }
+
+  &__circle {
+    animation: rotate 20s 0s infinite linear;
+  }
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

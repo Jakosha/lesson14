@@ -1,0 +1,39 @@
+.contacts {
+  margin-top: 150px;
+  margin-bottom: 150px;
+  position: relative;
+  display: flex;
+  align-items: center;
+
+  &__wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 100px;
+  }
+
+  &__title {
+    text-transform: uppercase;
+    margin-bottom: 62px;
+  }
+
+  &__form {
+    grid-column-start: 2;
+  }
+
+  &__form-container {
+    display: grid;
+    grid-row-gap: 20px;
+    padding-right: 55px;
+
+    .button {
+      justify-self: start;
+    }
+  }
+
+  &__image {
+    position: absolute;
+    max-height: 533px;
+    width: calc(50% - 50px);
+    background-color: $color-dark-gray;
+  }
+}
