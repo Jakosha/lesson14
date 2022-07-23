@@ -1,0 +1,14 @@
+.block {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  
+  &__left {  
+    text-transform: uppercase;
+    margin-right: 145px;
+  }
+  &__right { 
+    align-self: end; 
+}
+
+}

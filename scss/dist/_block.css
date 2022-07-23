@@ -1,0 +1,16 @@
+.block {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.block__left {
+  text-transform: uppercase;
+  margin-right: 145px;
+}
+
+.block__right {
+  align-self: end;
+}
+
+/*# sourceMappingURL=_block.css.map */

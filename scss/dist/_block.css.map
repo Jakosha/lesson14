@@ -1,0 +1,1 @@
+{"version":3,"names":[],"mappings":"","sources":["_block.scss"],"sourcesContent":[".block {\r\n    display: flex;\r\n    flex-direction: row;\r\n    justify-content: center;\r\n  \r\n  &__left {  \r\n    text-transform: uppercase;\r\n    margin-right: 145px;\r\n  }\r\n  &__right { \r\n    align-self: end; \r\n}\r\n\r\n}"],"file":"_block.css"}
