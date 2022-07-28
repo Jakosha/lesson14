@@ -12,6 +12,12 @@ body {
   margin: 0 auto;
 }
 
+.container {
+  width: 970px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 @import "button";
 @import "input";
 @import "header";
@@ -20,3 +26,7 @@ body {
 @import "contacts";
 @import "block";
 @import "partners";
+@import "work";
+@import "experiences";
+@import "testimonials";
+@import "skills";

@@ -1,2 +1,2 @@
-.partners{margin-top:140px}.partners__icon{position:relative;display:flex;flex-wrap:wrap;justify-content:center}
+.partners__bottom,.partners__icons{margin-left:auto;margin-right:auto}.partners,.partners__bottom{text-transform:uppercase}.partners__icons{display:grid;width:550px;grid-template-columns:repeat(3,minmax(0,1fr));grid-template-rows:repeat(3,minmax(0,1fr));margin-top:30px}.partners__icon{position:relative;display:flex;align-items:center;justify-content:center}.partners__bottom{width:119px;font-size:13px;line-height:22px;text-align:center;border-bottom:1px solid #fff}
 /*# sourceMappingURL=_partners.min.css.map */

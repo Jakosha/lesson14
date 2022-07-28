@@ -1,0 +1,57 @@
+.experiences {
+    width: 970px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 98px;
+    margin-bottom: 82px;
+    
+    &__header {
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    &__items {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 30px;
+        margin-top: 90px;
+        margin-bottom: 150px;
+    }
+    &__item {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        position: relative;
+        background: #171924;
+        padding: 15px;
+        align-items: center;
+
+
+    }
+    &__icons {
+        position: absolute;
+        width: 80px;
+        height: 80px;
+        background-color: #C6100F;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &__title {
+        font-size: 19px;
+        line-height: 30px;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    &__description {
+        padding-top: 25px;
+    }
+    &__text {
+        font-size: 20px;
+        line-height: 24px;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 25px;
+
+    }
+}

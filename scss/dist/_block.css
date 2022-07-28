@@ -1,16 +1,21 @@
 .block {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 40px;
+  margin-bottom: 150px;
 }
 
 .block__left {
   text-transform: uppercase;
-  margin-right: 145px;
 }
 
 .block__right {
+  width: 335px;
   align-self: end;
+}
+
+.block__right p {
+  margin-bottom: 30px;
 }
 
 /*# sourceMappingURL=_block.css.map */

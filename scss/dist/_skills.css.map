@@ -1,0 +1,1 @@
+{"version":3,"names":[],"mappings":"","sources":["_skills.scss"],"sourcesContent":[".skills {\r\n    margin-top: 160px;\r\n\r\n    &__header {\r\n        margin-top: 77px;\r\n        margin-bottom: 77px;        \r\n    }\r\n\r\n\r\n}"],"file":"_skills.css"}
